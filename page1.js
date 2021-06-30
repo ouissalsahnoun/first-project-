@@ -10,10 +10,8 @@ $("#First").click(function(){
 //have to make third page js 
 
 $("#second").click(function(){
-alert ("have to make a page with text input username and story ")
+    window.location.href = 'page3.html'});
 
-
-})
 
 // have to copy paste stories , add pictures 
 
