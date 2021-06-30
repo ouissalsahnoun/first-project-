@@ -1,24 +1,37 @@
+
+$("#tit").click(function(){
+    window.location.href = 'page1.html'});
+
+
+
+
+
+
+
+
 $("#body").append(" <ul id = 'bar'> </ul>")
+
+
 
 // i have to male these in a bar up right 
 $("#bar").append("<li id ='First'>categories</li>"+ "<li id = 'second'>write</li >"+ "<li id='third'>read</li>")
 
 
 $("#body").append("<div id='cat'> </div>")
-$("#cat").append("<button id= 'cat1'> family </button>")
-$("#cat").append("<button id= 'cat2'> abuse </button>")
-$("#cat").append("<button id= 'cat3'> collge </button>")
-$("#cat").append("<button id= 'cat4'> new place</button>")
-$("#cat").append("<button id= 'cat5'> pets </button>")
-$("#cat").append("<button id= 'cat6'> relationships </button>")
-$("#cat").append("<button id= 'cat7'> spirituality </button>")
-$("#cat").append("<button id= 'cat8'> parenting </button>")
-$("#cat").append("<button id= 'cat9'> birth </button>")
-$("#cat").append("<button id= 'cat10'> sports </button>")
-$("#cat").append("<button id= 'cat11'> work </button>")
-$("#cat").append("<button id= 'cat12'> travel </button>")
-$("#cat").append("<button id= 'cat13'> visa </button>")
-$("#cat").append("<button id= 'cat14'> others </button>")
+$("#cat").append("<button class = 'butt' id= 'cat1'> family </button>")
+$("#cat").append("<button class = 'butt' id= 'cat2'> abuse </button>")
+$("#cat").append("<button class = 'butt' id= 'cat3'> collge </button>")
+$("#cat").append("<button class = 'butt' id= 'cat4'> new place</button>")
+$("#cat").append("<button class = 'butt' id= 'cat5'> pets </button>")
+$("#cat").append("<button class = 'butt' id= 'cat6'> relationships </button>")
+$("#cat").append("<button class = 'butt'  id= 'cat7'> spirituality </button>")
+$("#cat").append("<button class = 'butt' id= 'cat8'> parenting </button>")
+$("#cat").append("<button class = 'butt' id= 'cat9'> birth </button>")
+$("#cat").append("<button  class = 'butt' id= 'cat10'> sports </button>")
+$("#cat").append("<button class = 'butt'  id= 'cat11'> work </button>")
+$("#cat").append("<button class = 'butt' id= 'cat12'> travel </button>")
+$("#cat").append("<button  class = 'butt' id= 'cat13'> visa </button>")
+$("#cat").append("<button  class = 'butt' id= 'cat14'> others </button>")
 
 
 $("#cat1").click(function(){

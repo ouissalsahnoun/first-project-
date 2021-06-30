@@ -1,3 +1,13 @@
+
+$("#first").click(function(){
+    window.location.href = 'page1.html'});
+
+
+
+
+
+
+
 $("#body").append(" <ul id = 'bar'> </ul>")
 
 // i have to male these in a bar up right 

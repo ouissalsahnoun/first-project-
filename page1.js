@@ -25,6 +25,11 @@ alert ("have to redirect to all stories shared")
 $("#body").append("<p>share your story , help others , get help , or just vent ,.. this is a safe place to do so </p>")
 
 
+$("#ttl").click(function(){
+    window.location.href = 'page1.html'});
+
+
+
 
  $("#body").append("<p> recent stories shared ....</p>")
 
