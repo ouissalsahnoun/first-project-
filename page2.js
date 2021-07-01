@@ -16,6 +16,30 @@ $("#body").append(" <ul id = 'bar'> </ul>")
 // i have to male these in a bar up right 
 $("#bar").append("<li id ='First'>categories</li>"+ "<li id = 'second'>write</li >"+ "<li id='third'>read</li>")
 
+$("#First").click(function(){
+    window.location.href = 'page2.html'});
+
+
+//have to make third page js 
+
+$("#second").click(function(){
+    window.location.href = 'page3.html'});
+
+
+// have to copy paste stories , add pictures 
+
+$("#third").click(function(){
+
+alert ("have to redirect to all stories shared")
+})
+
+
+
+
+
+
+
+
 
 $("#body").append("<div id='cat'> </div>")
 $("#cat").append("<button class = 'butt' id= 'cat1'> family </button>")
