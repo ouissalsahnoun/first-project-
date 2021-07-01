@@ -1,32 +1,16 @@
 
-$("#tit").click(function(){
-    window.location.href = 'page1.html'});
-
-
-
-
+$("#life").click(function(){
+    window.location.href = 'frontpage.html'});
 
 
 
 
 $("#body").append(" <ul id = 'bar'> </ul>")
 
-
-
-// i have to male these in a bar up right 
 $("#bar").append("<li id ='First'>categories</li>"+ "<li id = 'second'>write</li >"+ "<li id='third'>read</li>")
 
-$("#First").click(function(){
-    window.location.href = 'page2.html'});
-
-
-//have to make third page js 
-
 $("#second").click(function(){
-    window.location.href = 'page3.html'});
-
-
-// have to copy paste stories , add pictures 
+    window.location.href = 'write.html'});
 
 $("#third").click(function(){
 

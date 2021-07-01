@@ -1,0 +1,187 @@
+#life {
+  font-family:  cursive;
+    color : white ;
+    text-shadow: moccasin;
+}
+
+#stories{
+
+color: white;
+
+}
+
+body{
+
+background-image:url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')}
+ #life:hover {background-color : rgb(59, 56, 55)}
+ ul {
+   font-family:  cursive;
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #c5bbbb54;
+  }
+  
+  li { 
+    color: white;
+    font-family:  cursive;
+    float: unset;
+  }
+  
+  li a { 
+    color: white;
+    font-family: cursive;
+    display: inline-block;
+    padding: 15px;
+  }
+ body {
+
+background-color:wheat;
+
+}
+
+
+#str {
+
+  column-count: 3;
+}
+
+#str {
+  list-style-position: outside;
+}
+#story {
+  font-family:  cursive;
+
+
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+#type {
+  
+
+
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+#us{
+
+  color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+.butt {
+
+   text-emphasis-position: initial;
+  font-variant-position:sub;
+  font-family: cursive;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color : grey;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .butt:hover {background-color :grey}
+  
+  .butt:active {
+    background-color : darkslategrey;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+ #select {
+   font-family: cursive;
+
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color : grey;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+
+
+
+ }
+ #line { color: white;
+font-family:cursive ;
+opacity: initial;
+size: 30px;
+border-bottom-style: double; 
+text-align: center;
+text-decoration: cadetblue;
+ }
+#name {
+  font-family:  cursive;
+}
+#end{
+
+  color: whitesmoke;
+}
+
+#socilamedia{
+
+  color: whitesmoke;
+}
+#p {
+
+  font-family: cursive;
+}
+#p{
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: inherit;
+font-style: italic;
+color:white;
+font-size: 30px;
+text-align: center;
+
+  
+ 
+
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(100, end); 
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+
