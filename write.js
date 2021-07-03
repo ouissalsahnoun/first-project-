@@ -1,16 +1,10 @@
-
-
-
-
-
-
 $("#life").click(function(){
     window.location.href = 'frontpage.html'});
 
 $("#body").append(" <ul id = 'bar'> </ul>")
 
 // i have to make these in a bar up right 
-$("#bar").append("<li id ='First'>categories</li>"+ "<li id = 'second'>write</li >"+ "<li id='third'>read</li>")
+$("#bar").append("<li id ='First'>Categories</li>"+ "<li id = 'second'>Write</li >"+ "<li id='third'>Read</li>")
 
 
 $("#First").click(function(){
@@ -27,8 +21,8 @@ $("#second").click(function(){
 
 $("#third").click(function(){
 
-alert ("have to redirect to all stories shared")
-})
+ window.location.href = 'read.html'});
+
 
 
 
@@ -38,6 +32,7 @@ alert ("have to redirect to all stories shared")
 
 $("body").append("<input class ='input' id= 'name' type= 'text' placeholder='name' />")
  $("body").append("<input class ='input' id = 'story' type= 'text' placeholder='story' />")
+
 $("body").append("<select id = 'select'></select>")
 $("#select").append('<option value="family "> family </option>')
 $("#select").append('<option value="abuse">abuse</option>')
@@ -59,18 +54,11 @@ $("body").append("<button class = 'butt' id ='button2'>share</button>")
 
 
 
- $("#button2").click(function(){
-   
- var t = new Date()
 
-    $("body").append("<div>"+
-
-    '@ ' +  $("#name").val() + ':'+ + $("#story").val()+  ' posted at ' + t + "</div>");
-
-    $("#name").val("")
-    $("#story").val("")
-    });
-
+ 
+  
+  
+  
   
 
 
@@ -82,10 +70,39 @@ $("body").append("<button class = 'butt' id ='button2'>share</button>")
 
 
 
-$("#body").append("<ul id ='end'>join us </ul>")
-$("#end").append("<li> about us </li>"+"<li>contact us </li>")
-$("#body").append("<ul id='socilamedia'>follow us on </ul>")
-$("#socilamedia").append("<li>facebook</li>"+"<li>instagram</li>"+"<li>youtube</li>")
+    $("body").append("<ul id ='end'>join us </ul>")
+    $("#end").append("<li id ='sum'> about us </li>"+"<li id='cont'>contact us </li>")
+    $("body").append("<ul id='socilamedia'>follow us on </ul>")
+    $("#socilamedia").append("<li>facebook</li>"+"<li>instagram</li>"+"<li>youtube</li>")
+    
+    
+    $("#sum").click(function(){
+        window.location.href = 'aboutus.html'
+    
+    
+    
+    });
+
+    $("#cont").click(function(){
+        window.location.href = 'contactus.html'
+    
+    
+    
+    });
 
 
 
+    
+var data = null
+
+ $("#button2").click(function(){
+    const name =$("#name").val()
+    const story =$("#story").val()
+    const cat = $('#select').val()
+data = {name ,story ,cat}
+ localStorage.setItem("content", JSON.stringify(data))
+
+ window.location.href = 'thanks.html'
+
+
+ });

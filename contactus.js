@@ -9,7 +9,7 @@ $("#body").append(" <ul id = 'bar'> </ul>")
 
 
 
-$("#bar").append("<li id ='First'>categories</li>"+ "<li id = 'second'>write</li >"+ "<li id='third'>read</li>")
+$("#bar").append("<li id ='First'>Categories</li>"+ "<li id = 'second'>Write</li >"+ "<li id='third'>Read</li>")
 
 $("#First").click(function(){
     window.location.href = 'categories.html'});
@@ -35,6 +35,13 @@ alert ("have to redirect to all stories shared")
 
 
 $("#b2").click(function(){
+    
+const contac =  $("#contact").val()
+const subj =$("#subject").val()
+const txt = $("#type").val()
+
+data = {contac ,subj,txt }
+ localStorage.setItem("content", JSON.stringify(data))
 
     alert(" we recieved your msg we will be in touch")
 
@@ -48,9 +55,9 @@ $("#b2").click(function(){
 
 
 $("body").append("<ul id ='end'>join us </ul>")
-$("#end").append("<li id='sum> about us </li>"+"<li id ='cont'>contact us </li>")
-$("body").append("<ul id='socilamedia'>follow us on </ul>")
-$("#socilamedia").append("<li>facebook</li>"+"<li>instagram</li>"+"<li>youtube</li>")
+$("#end").append("<li id='sum> About Us </li>"+"<li id ='cont'>Contact Us </li>")
+$("body").append("<ul id='socilamedia'>Follow Us On </ul>")
+$("#socilamedia").append("<li>Facebook</li>"+"<li>Instagram</li>"+"<li>Youtube</li>")
 
 
 $("#sum").click(function(){

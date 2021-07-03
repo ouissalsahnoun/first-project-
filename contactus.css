@@ -1,0 +1,14 @@
+body{
+
+background-image: url("https://mbssystems.files.wordpress.com/2018/11/we-are-here-to-help.jpg");
+
+
+}
+
+
+.detail:hover {background-color : whitesmoke}
+.detail{
+    color :black;
+     font-size: 25px;
+    font-family: monospace;
+  }
