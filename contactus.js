@@ -36,12 +36,8 @@ alert ("have to redirect to all stories shared")
 
 $("#b2").click(function(){
     
-const contac =  $("#contact").val()
-const subj =$("#subject").val()
-const txt = $("#type").val()
 
 data = {contac ,subj,txt }
- localStorage.setItem("content", JSON.stringify(data))
 
     alert(" we recieved your msg we will be in touch")
 

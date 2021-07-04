@@ -103,6 +103,7 @@ $("#third").click(function(){
  
  
  });
+ 
  const  help = JSON.parse(localStorage.getItem("content"))
 for (var key in help){
     $("#help").append("<p> "+ key+ ':' + help[key]+ "</p>")

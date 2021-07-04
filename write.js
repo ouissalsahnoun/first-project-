@@ -98,8 +98,9 @@ var data = null
  $("#button2").click(function(){
     const name =$("#name").val()
     const story =$("#story").val()
-    const cat = $('#select').val()
-data = {name ,story ,cat}
+    const category  = $('#select').val()
+
+data = {name ,story ,category}
  localStorage.setItem("content", JSON.stringify(data))
 
  window.location.href = 'thanks.html'

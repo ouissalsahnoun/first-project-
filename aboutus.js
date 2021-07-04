@@ -39,9 +39,9 @@ $("#pic").append("<img src= 'https://media.istockphoto.com/photos/tango-dancers-
 $("#pic").append("<img src= '  https://media.istockphoto.com/photos/russia-baptism-anniversary-divine-liturgy-senior-women-and-men-picture-id585154824?k=6&m=585154824&s=612x612&w=0&h=NlnONxM0lkHiRWen8UnoG_QE2B7E4dY-XmmnnoTj3Ow='>")
 
 
-$("#body").append("<ul id ='end'>join us </ul>")
+$("body").append("<ul id ='end'>join us </ul>")
 $("#end").append("<li id ='sum'> about us </li>"+"<li id='cont'>contact us </li>")
-$("#body").append("<ul id='socilamedia'>follow us on </ul>")
+$("body").append("<ul id='socilamedia'>follow us on </ul>")
 $("#socilamedia").append("<li>facebook</li>"+"<li>instagram</li>"+"<li>youtube</li>")
 
 

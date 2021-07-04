@@ -144,6 +144,22 @@ $("#cat14").click(function(){
 })
 
 
+
+
+ //var cat1= ['family','abuse','collge', 'new place','pets','relationships',' spirituality','birth','sports','work','travel','visa','others']
+
+ //const  help = JSON.parse(localStorage.getItem("content"))
+ //for (var key in help){
+  //   if(cat1[0]==='key'){
+
+   //  $("#cat1").after("<p> "+ key+ ':' + help[key]+ "</p>")
+ //
+  //   }
+ //} still working on how to filter this 
+
+
+
+
 $("body").append("<ul id ='end'>join us </ul>")
 $("#end").append("<li id ='sum'> about us </li>"+"<li id='cont'>contact us </li>")
 $("body").append("<ul id='socilamedia'>follow us on </ul>")
