@@ -37,7 +37,6 @@ alert ("have to redirect to all stories shared")
 $("#b2").click(function(){
     
 
-data = {contac ,subj,txt }
 
     alert(" we recieved your msg we will be in touch")
 
@@ -68,3 +67,8 @@ $("#cont").click(function(){
 
 
 });
+$("#socilamedia").click(function(){
+
+    alert("we are building our social media network ")
+    
+    });

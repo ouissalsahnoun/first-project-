@@ -57,3 +57,8 @@ $("#cont").click(function(){
 
 
 });
+$("#socilamedia").click(function(){
+
+    alert("we are building our social media network ")
+    
+    });

@@ -4,11 +4,10 @@ $("#life").click(function(){
 $("#body").append(" <ul id = 'bar'> </ul>")
 
 // i have to make these in a bar up right 
-$("#bar").append("<li id ='First'>Categories</li>"+ "<li id = 'second'>Write</li >"+ "<li id='third'>Read</li>")
+$("#bar").append("<li  class = 'tog' id = 'second'>Write</li >"+ "<li class = 'tog' id='third'>Read</li>")
 
 
-$("#First").click(function(){
-    window.location.href = 'categories.html'});
+
 
 
 //have to make third page js 
@@ -107,3 +106,9 @@ data = {name ,story ,category}
 
 
  });
+ 
+ $("#socilamedia").click(function(){
+
+    alert("we are building our social media network ")
+    
+    });

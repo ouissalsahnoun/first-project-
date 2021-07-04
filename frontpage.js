@@ -9,10 +9,9 @@ $("#life").click(function(){
 
 
 // i have to make these in a bar up right 
-$("#immg").after ("<li class = 'tog' id ='First'>Categories</li>"+ "<li class = 'tog'id = 'second'>Write</li>"+ "<li class= 'tog' id='third'>Read</li>")
+$("#immg").after ( "<li class = 'tog'id = 'second'>Write</li>"+ "<li class= 'tog' id='third'>Read</li>")
 
-$("#First").click(function(){
-    window.location.href = 'categories.html'});
+
 
 
 
@@ -71,5 +70,10 @@ $("#cont").click(function(){
     window.location.href = 'contactus.html'
 
 
+
+});
+$("#socilamedia").click(function(){
+
+alert("we are building our social media network ")
 
 });
