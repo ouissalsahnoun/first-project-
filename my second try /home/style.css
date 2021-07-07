@@ -1,0 +1,180 @@
+
+
+
+    body{
+
+        background-image: url('http://www.baltana.com/files/wallpapers-2/City-HD-Wallpapers-04510.jpg');
+
+
+ }
+
+    
+    .navbar{
+   
+    position:fixed;
+    height: 80px;
+    overflow:hidden;
+    top:0;
+    display: flex;
+    align-items: center;
+    background-color : black;
+    width: 100%;
+    }
+
+    
+    #img:hover{
+        opacity: 100%;
+    }
+        #img{
+            opacity: 40%;
+            margin-top: 80px;
+           width: 50%;
+        }
+    .hide{display: none;}
+    .show{display: block;}
+
+   
+    .container{
+    
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+       
+     width: 100%;
+    }
+
+    
+    .container span {
+        display: block;
+    }
+  
+
+
+   
+    #share:hover{
+
+        font-size: 30px;
+    }
+
+    #share {
+background-color: black;
+        width: 600;
+        color: red;
+      font-size :25px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #share{
+
+        margin-bottom:  100px;
+    }
+
+
+
+   
+    .menue a:hover{
+        color: red;
+    }
+    .menue a{
+    
+        color: ghostwhite;
+        text-decoration: none;
+        font-weight: 700;
+        margin-left: 20px;
+        transition:color 0.3s;
+        }
+
+        .menue{
+            position: absolute;
+            right: 20px;
+           
+                
+            }
+
+
+
+
+
+    
+    #txt1{
+    
+        animation: text 3s 100;
+         margin-bottom: 20px; 
+         position: relative; 
+         font-size: 100px; 
+         width: 500;
+         letter-spacing: 10px ;
+         font-weight: 600;
+        
+        }
+
+
+
+
+
+    
+    #txt2{
+  
+        font-size: 60px;
+        font-weight: 200;
+    }
+    
+    @keyframes text {
+    
+        0% {
+    
+    color: black;
+    margin-bottom: -40px;
+    
+        }
+        30% {
+    letter-spacing: 25px;
+            margin-bottom: -40px;
+        }}
+        
+
+
+
+  .all {
+     
+columns: 3;
+
+
+ }
+
+
+#div1{
+
+    color: white;
+}
+
+#di21{
+
+    color: white;
+}
+#div3{
+
+    color: white;
+}
+
+
+
+#div1:hover{
+
+background-color: black;
+    
+}
+
+#di21:hover{
+
+    background-color: black;
+        
+    }
+
+
+    #div3:hover{
+
+        background-color: black;
+            
+        }
